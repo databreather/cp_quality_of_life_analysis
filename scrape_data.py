@@ -101,7 +101,7 @@ def transform_data(cities, city_categories, city_scores, city_summaries):
 cities, city_categories, city_scores, city_summaries = get_data("urban_areas")
 data = transform_data(cities, city_categories, city_scores, city_summaries)
 
-data.to_csv(".quality_of_life_v1.csv", index=False)
+data.to_csv("quality_of_life.csv", index=False)
 
 
         
